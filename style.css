@@ -8,10 +8,11 @@ body{
     font-family: "Inter", sans-serif;
     font-style: normal;
 }
-
-/* nav style start */
-.header{
+.container{
     max-width: 1600px;
+}
+/* nav style start */
+.header{    
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
@@ -47,7 +48,16 @@ body{
 .hamberger{
      display: none;
 } 
-
+.spotify-btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 12px 16px;
+    background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51% , #9100F8 100%);
+    border: none;
+    border-radius: 18px;
+    align-items: center;
+}
 /* nav style end */
 
 
