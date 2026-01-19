@@ -170,7 +170,7 @@ body {
 }
 
 /* choose */
-#choose h1, #feature h1{
+#choose h1, #feature-and-meet h1{
     font-size: 48px;
     font-weight: 70px;
     padding-bottom: 40px;
@@ -244,6 +244,39 @@ i.fa-solid.fa-clock {
     margin-right:5px;
 }
 
+/* meeet host  */
+.padding-t{
+    padding-top: 120px;
+}
+.meet-info{
+    display:flex;
+    gap: 24px;
+    padding: 48px;
+    border-radius: 18px;
+}
+.hoster-name{
+    padding-bottom: 16px;
+    font-size: 32px;
+    font-weight: 500px;
+}
+.host-speach{
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 60%;
+    padding-bottom: 16px;
+}
+.host-social{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+.host-social li img {
+    border: 1px solid #533C72;
+    padding: 6px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
 
 
 
