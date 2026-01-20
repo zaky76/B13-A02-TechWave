@@ -546,7 +546,7 @@ i.fa-solid.fa-clock {
 
   .podcast-card {
     background-image: url("./assets/hero-mobile.png");
-     min-height: 509px;
+    min-height: 509px;
   }
 
   .feature-card {
@@ -693,6 +693,11 @@ i.fa-solid.fa-clock {
     transition: 2s;
   }
 
+  .podcast-card {
+    background-image: url(./assets/hero-bg.png);
+    min-height: 650px;
+  }
+
   .feature-card {
     width: 91%;
   }
@@ -700,8 +705,6 @@ i.fa-solid.fa-clock {
   .feature-card-detail {
     flex-direction: center;
   }
-
-  .subscribe-btn:hover {}
 
   .section-pd {
     padding: 40px 0px;
@@ -727,7 +730,7 @@ i.fa-solid.fa-clock {
   }
 
   .meet-info img {
-    width: 60%;
+    width: 25%;
   }
 
   .host-social {
@@ -758,8 +761,8 @@ i.fa-solid.fa-clock {
   }
 
   .footer-icon {
-    grid-template-columns: repeat(2, auto);
-    gap: 16px;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
   }
 
   #choose h1,
