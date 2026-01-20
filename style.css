@@ -175,9 +175,21 @@ body {
 }
 
 .subscribe-btn:hover {
-  background: rgba(0, 255, 170, 0.1);
+  border: 1px solid #fb09b4;
 }
-
+.spotify-btn:hover, .subs-btn:hover {
+    background: linear-gradient(90deg, #9100f8 0%, #fb09b4 51%, #f7e93f 100%);
+    cursor: pointer;
+}
+.about-title:hover {
+    color: linear-gradient(90deg, #9100f8 0%, #fb09b4 51%, #f7e93f 100%);
+}
+.header>img:hover{
+  cursor: pointer;
+}
+.host-social li img:hover {
+    border: 1px solid #fb09b4;
+}
 /* .hero-button{
     display: flex;
     justify-content: center;
@@ -474,14 +486,42 @@ i.fa-solid.fa-clock {
   align-items: center;
   gap: 8px;
 }
+.fa-envelope:before {
+    color: #06ffaa;
+}
 
-
-/* Subtle Mic Icon rotation on hover */
+/* microphone hover */
 .mic-icon:hover {
   transform: rotate(360deg);
   transition: transform 0.3s ease;
 }
+/* techwave text animation */
+.techwave-animate {
+  height: 50px; 
+  transition: transform 0.3s ease;
+  animation: pulse 3s infinite ease-in-out;
+}
 
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    color: #fff;
+  }
+  50% {
+    transform: scale(1.05);
+    color: #fb09b4;
+  }
+  100% {
+    transform: scale(1);
+    color: #f7e93f;
+  }
+}
+
+/* Bonus: Pause animation when user hovers */
+.logo-animate:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
 
 /* responsive code */
 @media screen and (max-width: 576px) {
@@ -632,8 +672,7 @@ i.fa-solid.fa-clock {
   }
 
   .subscribe-btn:hover {
-    transform: rotate(360deg);
-    transition: 2s;
+    
   }
   .section-pd {
     padding: 40px 0px;
