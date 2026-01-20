@@ -544,6 +544,10 @@ i.fa-solid.fa-clock {
     transition: 2s;
   }
 
+  .btn {
+    padding: 10px 19px;
+  }
+
   .podcast-card {
     background-image: url("./assets/hero-mobile.png");
     min-height: 509px;
